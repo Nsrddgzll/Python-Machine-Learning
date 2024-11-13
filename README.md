@@ -30,7 +30,7 @@ This repository contains my implementations and notes from working through Sebas
 ## Installation
 1. Clone this repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Nsrddgzll/Python-Machine-Learning
 cd python-machine-learning-raschka
 ```
 
