@@ -57,7 +57,7 @@ class LogisticRegression(object):
         return np.dot(X, self.w_) + self.b_
     
     def activation(self, z):
-        return 1 / (1 + np.exp(-z))
+        return 1 / (1 + np.exp(-np.clip(z, -250, 250)))
     
     def predict(self, X):
         """predict the label class"""
